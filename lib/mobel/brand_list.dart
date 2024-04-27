@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class BrandCard extends ChangeNotifier {
+  // ignore: unused_field
   final List<List<dynamic>> _shopbrand = [
     [
       "Boys Blue T Shirt (18)",

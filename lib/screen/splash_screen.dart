@@ -1,11 +1,14 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:grocery_app/loginscreens/login/otp_view.dart';
 import 'package:grocery_app/utils/app_colors.dart';
 import 'package:grocery_app/widgets/bottom_navigator.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key});
+  final OTPView Function(dynamic context)? builder;
+
+  const SplashScreen({Key? key, this.builder});
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();

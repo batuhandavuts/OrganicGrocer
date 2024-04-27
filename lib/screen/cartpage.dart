@@ -8,8 +8,10 @@ class CartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool switchValue = false;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: switchValue ? Colors.black : Colors.white,
         title: Text(
           "My Booking Cards",
           style: TextStyle(

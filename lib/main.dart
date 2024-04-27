@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_app/loginscreens/login/login_view.dart';
 import 'package:grocery_app/mobel/cart_model.dart';
-import 'package:grocery_app/screen/splash_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Grocery App',
-        home: SplashScreen(),
+        home: LoginView(),
       ),
     );
   }

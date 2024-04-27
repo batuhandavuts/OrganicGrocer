@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_app/loginscreens/login/login_view.dart';
 import 'package:grocery_app/screen/cartpage.dart';
 import 'package:grocery_app/utils/app_colors.dart';
 import 'package:grocery_app/widgets/bottom_navigator.dart';
@@ -30,7 +31,7 @@ class _ProfileViewState extends State<ProfileView> {
               const SizedBox(
                 height: 20,
               ),
-              profileItem("Name", "Fahad Farooq", Icons.person),
+              profileItem("Name", "Keyvan Arasteh", Icons.person),
               const SizedBox(
                 height: 20,
               ),
@@ -76,7 +77,7 @@ class _ProfileViewState extends State<ProfileView> {
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => BottomNavigation(),
+                        builder: (context) => LoginView(),
                       ),
                     );
                   },

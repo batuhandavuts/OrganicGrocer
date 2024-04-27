@@ -14,18 +14,37 @@ class Homepage extends StatefulWidget {
   State<Homepage> createState() => _HomepageState();
 }
 
+class MyApp extends StatelessWidget {
+  bool isDarkMode = false; // Gece modu durumunu takip etmek için bir değişken
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: isDarkMode ? ThemeData.dark() : ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+      home: Homepage(),
+    );
+  }
+}
+
 class _HomepageState extends State<Homepage> {
+  bool isDarkMode = false; // Gece modu durumunu takip etmek için bir değişken
+  // bool switchValue = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //backgroundColor: switchValue ? Colors.black : Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        automaticallyImplyLeading: false,
+        // backgroundColor: switchValue
+        //     ? Colors.black
+        //     : Colors
+        //         .white, // Anahtar değiştirme butonu aktif olduğunda arka plan rengi siyah olacak, değilse beyaz olacak
         elevation: 0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "OGRANIC GROCERY",
+              "Organic Grocery ",
               style: TextStyle(
                 color: AppColors.colorsDarkGreen,
                 fontSize: 20.0,
@@ -43,16 +62,40 @@ class _HomepageState extends State<Homepage> {
         centerTitle: true,
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(30.0),
-          child: Padding(
-            padding: const EdgeInsets.only(bottom: 8.0),
-            child: Text(
-              "Karachi, Pakistan 🌍 ",
-              style: TextStyle(
-                fontSize: 18.0,
-                fontWeight: FontWeight.normal,
-                color: AppColors.colorsLiteBlack,
+          child: Column(
+            children: [
+              // SizedBox(height: 15),
+              // Text(
+              //   "Istanbul, Turkey 🌍 ",
+              //   style: TextStyle(
+              //     fontSize: 18.0,
+              //     fontWeight: FontWeight.normal,
+              //     color: AppColors.colorsLiteBlack,
+              //   ),
+              // ),
+              SizedBox(height: 3), // Boşluk eklendi
+
+              Switch(
+                // Anahtarlama (switch) bileşeni kullanarak modu değiştirme
+                value: isDarkMode,
+                onChanged: (value) {
+                  setState(() {
+                    isDarkMode = value;
+                  });
+                },
               ),
-            ),
+
+              // Switch(
+              //   value: switchValue,
+              //   onChanged: (value) {
+              //     setState(() {
+              //       switchValue = value;
+              //     });
+              //   },
+              //   activeColor: Colors
+              //       .green, // Anahtar değiştirme butonunun etkin rengi değiştirildi
+              // ),
+            ],
           ),
         ),
       ),
@@ -79,9 +122,13 @@ class _HomepageState extends State<Homepage> {
                 padding: const EdgeInsets.symmetric(horizontal: 24),
                 child: Text(
                   "Let's Order Fresh Items For You",
-                  style: GoogleFonts.notoSerif(
+                  style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
+                    color: Colors
+                        .black, // Anahtar değiştirme butonu aktif olduğunda yazı rengi siyah, değilse beyaz olacak
+                    fontFamily:
+                        'NotoSerif', // GoogleFonts kütüphanesi kullanılmadığı için font family doğrudan stil içinde belirtiliyor
                   ),
                 ),
               ),

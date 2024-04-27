@@ -1,41 +1,52 @@
-# Organic Grocery
+<h2 align="left">Flutter Grocery App Final Project</h2>
 
-🌱 Excited to share a sneak peek of our upcoming Organic Grocery App UI developed in Flutter! 📱 Check out the sleek screens:
-🔸 Splash Screen: Brand logo loading for a smooth start.
-🔸 Home: Easy browsing with featured products & special offers.
-🔸 Product Categories: Dive into fruits, veggies, dairy, and more!
-🔸 Cart: Manage items, adjust quantities, and breeze through checkout.
-🔸 Alerts: Stay updated on orders, deliveries, and promos.
-🔸 Profile: Customize preferences, track orders, and manage details.
-🔸 Brands: Discover values and offerings from organic brands.
-Stay tuned for a seamless organic shopping experience! 🛒✨ #Flutter #OrganicGroceryApp #UI
+###
 
-## Screenshots
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=batuhandavuts&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=batuhandavuts&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-Here are some screenshots of the application:
+###
 
-| Splash Screen                           | Home Screen                     | 
-|:--------------------------------------:|:--------------------------------------:|
-| ![Screenshot 1](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/b3918511-879b-4aca-85e6-f7d14ebe8489) | ![Screenshot 2](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/79992116-f4d5-4d0e-bd61-7de6c3592a13) |
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
+</div>
 
-| Details                                 | Alert                           | 
-|:--------------------------------------:|:--------------------------------------:|
-| ![Screenshot 3](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/f83fd0fb-7480-495f-8e5b-c8b76b9edeb6) | ![Screenshot 4](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/5a7904f5-fcd0-420b-8d2d-ef42678d48c7) |
+###
 
-| Braand Category                                  | Profile                           | 
-|:--------------------------------------:|:--------------------------------------:|
-| ![Screenshot 5](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/a78ea2a3-37b6-4b04-9f1b-f1dfbe5aaef4) | ![Screenshot 6](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/ff9b0b5f-20c2-4942-9456-1c74aa51f211) |
+<div align="left">
+  <a href="mailto:batuhandavut97@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/batuhandavuts/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+</div>
 
-| Product Category                                  | Card Screens                           | 
-|:--------------------------------------:|:--------------------------------------:|
-| ![Screenshot 7](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/a4a19c0e-d257-46e5-9fed-e5ea3655bd1d) | ![Screenshot 8](https://github.com/FahadFarooq40/Organic-Groceries-/assets/104043766/a958819f-6bb6-4bbf-8903-57d99cbf40d9) |
+###
 
-THANK YOU SO MUCH 😍❤️
+###
 
-
-
+Ders:
+ - [ Mobil Programlamaya Giriş ]
 
 
+Teammates
+ - [@gokhanulaskin](https://github.com/gokhanulaskin) -221216064
+ - [@batuhandavuts](https://github.com/batuhandavuts) -221216026
+   
+Supervisor
+ - [@keyvanarasteh](https://github.com/keyvanarasteh)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###
+
+<h2 align="left">Proje Hakkında</h2>
+
+###
+
+-
+
+###

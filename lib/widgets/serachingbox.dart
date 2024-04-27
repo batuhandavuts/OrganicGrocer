@@ -10,6 +10,7 @@ class SerachingBox extends StatefulWidget {
 
 class _SerachingBoxState extends State<SerachingBox> {
   late TextEditingController _searchController;
+  bool switchValue = false;
 
   @override
   void initState() {
